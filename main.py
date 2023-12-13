@@ -22,8 +22,7 @@ def updateRPC():
 
 if __name__ == "__main__":
     updateRPC()
-    while True:
-        time.sleep(30)
+    input("Чтобы выйти, нажмите [ENTER]")
 
 
 
