@@ -1,13 +1,20 @@
 {
     "ClientID": "1137055755971854467",
-    "LargeImage": "large", 
-    "LargeImageText": "What",
-    "SmallImage": "None",
-    "SmallImageText": "None",
-    "Button1": "Revolution OS",
-    "Url1": "https://dsc.gg/revolutionaries",
-    "Button2": "VK",
-    "Url2": "https://vk.com/moylub",
-    "State": "Visual Studio Code",
-    "Details": "Inchez"
+    "large_image": "large", 
+    "large_text": "What",
+    "small_image": "logo_neofetch",
+    "small_text": "Neofetch",
+    "buttons": [
+        {
+            "label": "GitHub",
+            "url": "https://github.com/Davidshevnya/Discord-Rich-Presence"
+        },
+        {
+            "label": "VK",
+            "url": "https://vk.com/moylub"
+        }
+    ],
+    
+    "state": "Visual Studio Code",
+    "details": "Inchez"
 }
