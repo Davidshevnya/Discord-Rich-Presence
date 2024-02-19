@@ -8,7 +8,7 @@ def updateRPC():
             config = config_file.read()
             config = json.loads(config)
         RPC = Presence(config.get("ClientID"))
-        # config.pop("ClientID")
+        config.pop("ClientID")
         RPC.connect()
         
         RPC.update(**config)
