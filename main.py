@@ -1,5 +1,7 @@
-from pypresence import Presence
 import json
+
+from pypresence import Presence
+
 
 
 def updateRPC():
